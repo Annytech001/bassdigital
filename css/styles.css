@@ -90,11 +90,11 @@ a {
 .header_main_title {
   font-size: 4.8rem;
   color: var(--color-secondary);
-  margin-bottom: 5.2rem;
-  
+  margin-bottom: 5.2rem;  
 }
 .header_p {
   margin-bottom: 3.2rem;
+  
 }
 .header_btn {
   padding: 1.2rem 2.5rem;
@@ -102,6 +102,9 @@ a {
   color: var(--color-white);
   border-radius: 10rem;
   font-weight: 600;
+}
+.header_btn:hover {
+  background-color: #0056b3;
 }
 
 .about {
@@ -137,10 +140,21 @@ a {
   color: black;
 }
 .about_btn {
-  color: var(--color-white);
+  color:#f2f4f4;
   font-weight: 600;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px; 
+  background-color: #0896b9; 
+  border: none; 
+  border-radius: 25px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
 }
 
+.about_btn:hover {
+  background-color: #0056b3;
+}
 .service_bar_wrapper {
   margin-top: 2rem;
 }
