@@ -48,27 +48,32 @@ a {
   background-color: #cec4c4;
   display: flex;
 }
+.bass{
+  margin-left: -5rem;
+}
 .nav_logo_box {
   height: 100%;
   display: flex;
   color: #ac4606;
   font-weight: bolder;
   align-items: center;
-  margin-right: 2rem;
+  padding-right: 280px;
 }
 .nav_logo {
   height: 100px;
-  width: 180px;
+  width: 160px;
   object-fit: cover;
   mix-blend-mode: multiply;
-  
+}
+.logonly{
+  margin-top: 4px;
 }
 .nav_list {
   list-style: none;
   display: flex;
   align-items: center;
-
 }
+
 .nav_item {
   margin: 0rem 0.6rem;
 }
@@ -79,13 +84,12 @@ a {
 }
 
 .header_content {
-  width: 100%;
-  height: calc(100vh - 9rem);
-  display: flex;
-  align-items: center;
+  margin-top:10px;
+
 }
 .header_container {
-  width: 60%;
+  width: 40%;
+  margin: 5rem;
 }
 .header_main_title {
   font-size: 4.8rem;
